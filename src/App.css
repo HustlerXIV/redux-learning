@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 50px 10px;
 }
 
 .App-logo {
@@ -35,4 +36,85 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.addUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: auto;
+  max-width: 500px;
+  margin: 0px auto;
+  background-color: #02457a;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  height: 200px;
+  filter: drop-shadow(3px 3px 10px rgb(106, 106, 106));
+}
+
+.customInput {
+  width: auto;
+  border-radius: 4px;
+  padding: 10px;
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #fff;
+}
+
+.addButton {
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #018abe;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.updateButton {
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #7cd2f4;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.deleteButton {
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #b63030;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.listContainer {
+  display: flex;
+  width: auto;
+  max-width: 600px;
+  margin: 10px auto;
+  background-color: #02457a;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.infoContainer {
+  display: flex;
+  gap: 5px;
+  font-size: 20px;
+  justify-content: center;
 }
